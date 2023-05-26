@@ -7,6 +7,11 @@ h2 {
   margin: auto;
   max-width: 1000px;
 
+  /* flexbox */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -29,6 +34,7 @@ a {
   margin: .5rem auto;
   box-sizing: border-box;
 
+  /* flexbox */
   order: 0;
   flex: 0 1 auto;
   align-self: auto;
@@ -42,5 +48,5 @@ a {
 }
 
 a:hover {
-  background-color: #000;
+  background-color: black;
 }
